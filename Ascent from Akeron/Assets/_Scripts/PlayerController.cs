@@ -30,10 +30,10 @@ public class PlayerController : MonoBehaviour {
 		//Changing Players
 		if (Input.GetKeyDown ("1")) {//Atleet
 			foreach (GameObject playerButton in playerButtons) {
-				if (playerButton.name == "Player"){
-					playerButton.transform.localScale = new Vector3 (0.55F, 0.55F, 1F);
+				if (playerButton.name == "Healthbar Pan"){
+					playerButton.transform.localScale = new Vector3 (0.25F, 0.25F, 1F);
 				} else {
-					playerButton.transform.localScale = new Vector3 (0.4F, 0.4F, 1F);
+					playerButton.transform.localScale = new Vector3 (0.2F, 0.2F, 1F);
 				}
 			}
 			GameObject clone = (GameObject)Instantiate(player1, transform.position, new Quaternion());
@@ -42,10 +42,10 @@ public class PlayerController : MonoBehaviour {
 		}
 		if (Input.GetKeyDown ("2")) {//Tank
 			foreach (GameObject playerButton in playerButtons) {
-				if (playerButton.name == "Player2"){
-					playerButton.transform.localScale = new Vector3 (0.55F, 0.55F, 1F);
+				if (playerButton.name == "Healthbar Aeolus"){
+					playerButton.transform.localScale = new Vector3 (0.25F, 0.25F, 1F);
 				} else {
-					playerButton.transform.localScale = new Vector3 (0.4F, 0.4F, 1F);
+					playerButton.transform.localScale = new Vector3 (0.2F, 0.2F, 1F);
 				}
 			}
 			GameObject clone = (GameObject)Instantiate(player2, transform.position, new Quaternion());
@@ -54,10 +54,10 @@ public class PlayerController : MonoBehaviour {
 		}
 		if (Input.GetKeyDown ("3")) {//Archer
 			foreach (GameObject playerButton in playerButtons) {
-				if (playerButton.name == "Player3"){
-					playerButton.transform.localScale = new Vector3 (0.55F, 0.55F, 1F);
+				if (playerButton.name == "Healthbar Chaos"){
+					playerButton.transform.localScale = new Vector3 (0.25F, 0.25F, 1F);
 				} else {
-					playerButton.transform.localScale = new Vector3 (0.4F, 0.4F, 1F);
+					playerButton.transform.localScale = new Vector3 (0.2F, 0.2F, 1F);
 				}
 			}
 			GameObject clone = (GameObject)Instantiate(player3, transform.position, new Quaternion());
@@ -66,10 +66,10 @@ public class PlayerController : MonoBehaviour {
 		}
 		if (Input.GetKeyDown ("4")) {//Techneut
 			foreach (GameObject playerButton in playerButtons) {
-				if (playerButton.name == "Player4"){
-					playerButton.transform.localScale = new Vector3 (0.55F, 0.55F, 1F);
+				if (playerButton.name == "Healthbar Nyx"){
+					playerButton.transform.localScale = new Vector3 (0.25F, 0.25F, 1F);
 				} else {
-					playerButton.transform.localScale = new Vector3 (0.4F, 0.4F, 1F);
+					playerButton.transform.localScale = new Vector3 (0.2F, 0.2F, 1F);
 				}
 			}
 			GameObject clone = (GameObject)Instantiate(player4, transform.position, new Quaternion());
